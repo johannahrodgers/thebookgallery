@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<style>
+.serif {
+  font-family: "Courier", Courier, serif;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  width:100%;
+}
+.wrapper > div img {
+  max-width:100%;
+}
+</style>
 </head>
 <body>
 
-<img src=“bookgallerylogo.jpg” width="400" height="379">
-
-<map name="image-map">
-    <area target="" alt="travel" title="travel" href="www.thebookgallery.net/travel" coords="799,158,175,28" shape="rect">
-    <area target="" alt="" title="" href="" coords="" shape="0">
-</map>
+<div id="content">
+  <div class="wrapper">
+    <div><img src="bookgallerylogo.jpg" ></div>
+   
+  </div>
+</div>
 
 </body>
 </html>
